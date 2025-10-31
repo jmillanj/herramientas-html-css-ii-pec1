@@ -5,22 +5,66 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <title>Descubre Puerto Real</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title"><i class="fas fa-university">Hola, UOC!</i></h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
+     <header>
+        <h1>Descubre Puerto Real</h1>
+        <p>La joya escondida de la Bahía de Cádiz</p>
+    </header>
+     <nav>
+        <a href="#historia">Historia</a>
+        <a href="#lugares">Lugares para visitar</a>
+        <a href="#gastronomia">Gastronomía</a>
+        <a href="#naturaleza">Naturaleza</a>
+    </nav>
+      <main>
+        <section id="historia">
+            <div class="contenido">
+                <h2>Historia</h2>
+                <p>Puerto Real, fundado en 1483 por los Reyes Católicos, es una de las ciudades más antiguas de la Bahía de Cádiz. Su nombre proviene de su origen como puerto perteneciente directamente a la Corona. A lo largo de los siglos, ha sido un punto clave para la industria naval, el comercio marítimo y la historia andaluza.</p>
+            </div>
+        </section>
+
+        <section id="lugares">
+            <div class="contenido">
+                <h2>Lugares para visitar</h2>
+                <div class="lugares">
+                    <div class="lugar">
+                        <h3>Iglesia de San Sebastián</h3>
+                        <p>Uno de los templos más emblemáticos de la ciudad, con una mezcla de estilos gótico y renacentista.</p>
+                    </div>
+                    <div class="lugar">
+                        <h3>Paseo Marítimo y Puerto Deportivo</h3>
+                        <p>Ideal para disfrutar de un paseo junto al mar y de las vistas hacia la Bahía de Cádiz.</p>
+                    </div>
+                    <div class="lugar">
+                        <h3>Parque Natural de las Canteras</h3>
+                        <p>Un pulmón verde lleno de senderos, pinares y zonas para el ocio y el deporte.</p>
+                    </div>
+                    <div class="lugar">
+                        <h3>Casa Consistorial</h3>
+                        <p>Un edificio histórico del siglo XVI situado en la Plaza de Jesús, centro neurálgico del municipio.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gastronomia">
+            <div class="contenido">
+                <h2>Gastronomía</h2>
+                <p>Puerto Real destaca por su rica gastronomía gaditana, basada en productos del mar. No puedes dejar de probar las <strong>tortillitas de camarones</strong>, el <strong>pescaíto frito</strong> o los guisos marineros tradicionales.</p>
+            </div>
+        </section>
+
+        <section id="naturaleza">
+            <div class="contenido">
+                <h2>Naturaleza</h2>
+                <p>Puerto Real cuenta con un entorno natural privilegiado. Sus <strong>salinas y marismas</strong> forman parte del Parque Natural Bahía de Cádiz, hogar de aves migratorias y paisajes únicos que pueden recorrerse en bicicleta o a pie.</p>
+            </div>
+        </section>
+    </main>
+
     <include src="./views/footer.html"></include>
     <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
   </body>
